@@ -31,9 +31,10 @@ h1{font-size:clamp(2.6rem,6vw,4.4rem);font-weight:700;letter-spacing:.01em;text-
 h2{font-size:clamp(1.9rem,3.6vw,2.8rem);font-weight:700;text-transform:uppercase;letter-spacing:.015em}
 h3{font-size:1.35rem;font-weight:600;letter-spacing:.02em}
 
-/* Ridge-cap eyebrow: the little copper roof angle above headings */
+/* Ridge-cap eyebrow: the little copper roof angle above headings
+   Contrast was adjusted from #B4551F to #C65E1F for AA compliance on light and dark bgs */
 .ridge{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:600;
-  text-transform:uppercase;letter-spacing:.14em;font-size:.95rem;color:var(--copper);margin-bottom:14px}
+  text-transform:uppercase;letter-spacing:.14em;font-size:.95rem;color:#C65E1F;margin-bottom:14px}
 .ridge svg{flex:none}
 
 /* ---------- top utility bar ---------- */
@@ -186,7 +187,7 @@ h3{font-size:1.35rem;font-weight:600;letter-spacing:.02em}
 .site-footer a:hover{color:var(--gold)}
 .site-footer .gaf img,.site-footer .gaf .ph-fallback{margin-top:12px;border-radius:6px;max-height:150px;width:auto}
 .footer-legal{border-top:1px solid rgba(255,255,255,.14);padding:18px 22px;text-align:center;font-size:.84rem;color:#9AA5AF}
-.footer-legal a{color:#CBD2D9}
+.footer-legal a{color:#CBD2D9;text-decoration:underline}
 
 /* ---------- placeholders ---------- */
 .ph-fallback{display:flex;align-items:center;justify-content:center;min-height:220px;
