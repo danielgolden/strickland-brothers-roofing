@@ -44,7 +44,7 @@ const PHOTOS = {
   "g12":"https://lirp.cdn-website.com/66a233cc/dms3rep/multi/opt/Screenshot_20231116_122923_Gallery-1920w.jpg"
 };
 
-const HERO_VIDEO = "https://vid.cdn-website.com/md/pexels/videos/culdesac-drone-footage-homes-houses-4770380-v.mp4";
+const HERO_VIDEO = "videos/hero-drone.mp4";
 
 /* ---------- photo slot hydration + placeholder fallback ---------- */
 document.querySelectorAll('img[data-slot]').forEach(img => {
