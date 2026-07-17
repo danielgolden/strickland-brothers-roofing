@@ -84,18 +84,35 @@ if (toggle && nav) {
   });
 }
 
-/* ---------- quote form (demo only) ----------
-   NOTE FOR DANIEL: this demo shows the confirmation without sending.
-   Wire it to a form handler (Formspree, GHL, Netlify Forms, etc.)
-   before delivery, plus an instant email/text notification to Jeff. */
+/* ---------- quote form (Formspree integration) ----------
+   Formspree form ID: strickland-brothers-roofing
+   Replace with client's own Formspree/GHL endpoint before launch. */
 const form = document.querySelector('#quote-form');
 if (form) {
-  form.addEventListener('submit', (e) => {
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
     /* honeypot: bots fill the hidden field, humans never see it */
     if (form.querySelector('input[name="company"]').value) return;
-    form.querySelector('.form-confirm').style.display = 'block';
-    form.querySelector('button[type="submit"]').disabled = true;
+
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch('https://formspree.io/f/xblbbqww', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: formData
+      });
+
+      if (response.ok) {
+        form.querySelector('.form-confirm').style.display = 'block';
+        form.querySelector('button[type="submit"]').disabled = true;
+        form.reset();
+      } else {
+        alert('There was an error submitting your form. Please call us directly at (717) 226-4781.');
+      }
+    } catch (error) {
+      alert('There was an error submitting your form. Please call us directly at (717) 226-4781.');
+    }
   });
 }
 
