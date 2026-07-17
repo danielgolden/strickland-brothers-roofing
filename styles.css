@@ -38,8 +38,8 @@ h3{font-size:1.35rem;font-weight:600;letter-spacing:.02em}
 .ridge svg{color:#C65E1F}
 .section.dark .ridge{color:#FF8533}
 .section.dark .ridge svg{color:#FF8533}
-.section.stone .ridge{color:#B4551F}
-.section.stone .ridge svg{color:#B4551F}
+.section.stone .ridge{color:#A04514}
+.section.stone .ridge svg{color:#A04514}
 
 /* ---------- top utility bar ---------- */
 .topbar{background:var(--shingle);color:#CBD2D9;font-size:.86rem}
