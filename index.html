@@ -1,975 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roofing Services in Carlisle, PA | Strickland Brothers Construction</title>
-    <meta name="description" content="GAF Certified roofing contractors in Carlisle, PA. Strickland Brothers Construction provides commercial & residential roofing in Cumberland County. Lifetime warranties. Call (717) 226-4781.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-    
-    <!-- Schema Markup for LocalBusiness -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "RoofingContractor",
-      "name": "Strickland Brothers Construction LLC & Roofing",
-      "image": "https://t67d8e125-theta.vercel.app/images/logo-small.jpg",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Carlisle",
-        "addressRegion": "PA",
-        "addressCountry": "US"
-      },
-      "telephone": "+17172264781",
-      "email": "mjeffreystrickland@gmail.com",
-      "url": "https://t67d8e125-theta.vercel.app",
-      "sameAs": [],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "reviewCount": "47"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Carlisle, PA"
-      },
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Roofing Services",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Commercial Roofing"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Residential Roofing"
-            }
-          }
-        ]
-      }
-    }
-    </script>
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        :root {
-            --primary: #1e3a5f;
-            --primary-dark: #152a45;
-            --accent: #c9a227;
-            --accent-hover: #b08d1f;
-            --text: #333;
-            --text-light: #666;
-            --bg-light: #f8f9fa;
-            --white: #fff;
-            --success: #22c55e;
-            --shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
-            --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            color: var(--text);
-            line-height: 1.6;
-        }
-
-        /* Header */
-        .header {
-            background: var(--white);
-            box-shadow: var(--shadow);
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 1000;
-        }
-
-        .header-top {
-            background: var(--primary);
-            color: var(--white);
-            padding: 0.5rem 1rem;
-            text-align: center;
-            font-size: 0.875rem;
-        }
-
-        .header-top a {
-            color: var(--accent);
-            text-decoration: none;
-            font-weight: 600;
-        }
-
-        .header-main {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem 1.5rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .logo {
-            height: 60px;
-        }
-
-        .nav-desktop {
-            display: flex;
-            gap: 2rem;
-            align-items: center;
-        }
-
-        .nav-desktop a {
-            color: var(--text);
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.2s;
-        }
-
-        .nav-desktop a:hover {
-            color: var(--primary);
-        }
-
-        .btn-primary {
-            background: var(--accent);
-            color: var(--primary-dark);
-            padding: 0.75rem 1.5rem;
-            border-radius: 4px;
-            text-decoration: none;
-            font-weight: 600;
-            display: inline-block;
-            transition: all 0.2s;
-        }
-
-        .btn-primary:hover {
-            background: var(--accent-hover);
-            transform: translateY(-1px);
-        }
-
-        .btn-white {
-            background: var(--white);
-            color: var(--primary-dark);
-            padding: 0.75rem 1.5rem;
-            border-radius: 4px;
-            text-decoration: none;
-            font-weight: 600;
-            display: inline-block;
-            transition: all 0.2s;
-        }
-
-        .btn-white:hover {
-            background: var(--bg-light);
-        }
-
-        .btn-outline {
-            border: 2px solid var(--white);
-            color: var(--white);
-            padding: 0.75rem 1.5rem;
-            border-radius: 4px;
-            text-decoration: none;
-            font-weight: 600;
-            display: inline-block;
-            transition: all 0.2s;
-        }
-
-        .btn-outline:hover {
-            background: var(--white);
-            color: var(--primary-dark);
-        }
-
-        .btn-large {
-            padding: 1rem 2rem;
-            font-size: 1.125rem;
-        }
-
-        /* Hero */
-        .hero {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-            color: var(--white);
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 120px 2rem 4rem;
-        }
-
-        .hero-content {
-            max-width: 800px;
-            text-align: center;
-        }
-
-        .hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(2rem, 5vw, 3.5rem);
-            margin-bottom: 1rem;
-            line-height: 1.2;
-        }
-
-        .hero-subtitle {
-            font-size: clamp(1rem, 2.5vw, 1.25rem);
-            margin-bottom: 2rem;
-            opacity: 0.9;
-        }
-
-        .hero-cta {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        /* Trust Badge Bar */
-        .trust-badge-bar {
-            background: var(--accent);
-            padding: 1rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 1rem;
-        }
-
-        .trust-badge-bar span {
-            font-weight: 600;
-            color: var(--primary-dark);
-        }
-
-        .gaf-badge {
-            background: var(--white);
-            color: var(--primary-dark);
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
-            font-weight: 700;
-            font-size: 0.875rem;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        /* Star Rating */
-        .star-rating {
-            display: flex;
-            gap: 0.25rem;
-            font-size: 1.25rem;
-            color: var(--accent);
-        }
-
-        /* Trust Bar */
-        .trust-bar {
-            background: var(--bg-light);
-            padding: 2rem 1rem;
-        }
-
-        .trust-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 1.5rem;
-            text-align: center;
-        }
-
-        .trust-item strong {
-            display: block;
-            font-size: 1.5rem;
-            color: var(--primary);
-            margin-bottom: 0.25rem;
-        }
-
-        .trust-item span {
-            font-size: 0.875rem;
-            color: var(--text-light);
-        }
-
-        /* Sections */
-        section {
-            padding: 4rem 1rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .section-header {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        .section-header h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.5rem;
-            color: var(--primary);
-            margin-bottom: 1rem;
-        }
-
-        .section-header p {
-            max-width: 600px;
-            margin: 0 auto;
-            color: var(--text-light);
-        }
-
-        /* Reviews Section */
-        .reviews-section {
-            background: var(--bg-light);
-            padding: 4rem 1rem;
-        }
-
-        .reviews-section .section-header h2 {
-            color: var(--primary);
-        }
-
-        .rating-summary {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 1rem;
-            margin-bottom: 2rem;
-        }
-
-        .rating-number {
-            font-size: 3rem;
-            font-weight: 700;
-            color: var(--primary);
-        }
-
-        .reviews-grid {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-
-        .review-card {
-            background: var(--white);
-            padding: 1.5rem;
-            border-radius: 8px;
-            box-shadow: var(--shadow);
-        }
-
-        .review-card .star-rating {
-            margin-bottom: 1rem;
-            font-size: 1rem;
-        }
-
-        .review-card p {
-            font-style: italic;
-            margin-bottom: 1rem;
-        }
-
-        .review-card .reviewer-name {
-            font-weight: 600;
-            color: var(--primary);
-        }
-
-        .review-card .reviewer-location {
-            font-size: 0.875rem;
-            color: var(--text-light);
-        }
-
-        /* Services */
-        .services-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2rem;
-        }
-
-        .service-card {
-            background: var(--white);
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: var(--shadow-lg);
-            transition: transform 0.3s;
-        }
-
-        .service-card:hover {
-            transform: translateY(-4px);
-        }
-
-        .service-card img {
-            width: 100%;
-            height: 250px;
-            object-fit: cover;
-        }
-
-        .service-content {
-            padding: 1.5rem;
-        }
-
-        .service-content h3 {
-            font-size: 1.5rem;
-            margin-bottom: 0.75rem;
-            color: var(--primary);
-        }
-
-        .service-content p {
-            color: var(--text-light);
-            margin-bottom: 1.5rem;
-        }
-
-        /* Why Us */
-        .why-us {
-            background: var(--bg-light);
-        }
-
-        .why-us .section-header h2 {
-            color: var(--primary);
-        }
-
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-        }
-
-        .feature {
-            text-align: center;
-            padding: 2rem;
-            background: var(--white);
-            border-radius: 8px;
-            box-shadow: var(--shadow);
-        }
-
-        .feature-icon {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-
-        .feature h3 {
-            font-size: 1.25rem;
-            margin-bottom: 0.75rem;
-            color: var(--primary);
-        }
-
-        .feature p {
-            color: var(--text-light);
-        }
-
-        /* Contact Form Section */
-        .contact-form-section {
-            background: var(--bg-light);
-            padding: 4rem 1rem;
-        }
-
-        .contact-form-container {
-            max-width: 600px;
-            margin: 0 auto;
-            background: var(--white);
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: var(--shadow-lg);
-        }
-
-        .contact-form-container h2 {
-            text-align: center;
-            color: var(--primary);
-            margin-bottom: 0.5rem;
-        }
-
-        .contact-form-container .subtitle {
-            text-align: center;
-            color: var(--text-light);
-            margin-bottom: 2rem;
-        }
-
-        .form-group {
-            margin-bottom: 1.5rem;
-        }
-
-        .form-group label {
-            display: block;
-            margin-bottom: 0.5rem;
-            font-weight: 500;
-            color: var(--text);
-        }
-
-        .form-group label span {
-            color: var(--text-light);
-            font-weight: 400;
-            font-size: 0.875rem;
-        }
-
-        .form-group input,
-        .form-group textarea {
-            width: 100%;
-            padding: 0.75rem 1rem;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 1rem;
-            font-family: inherit;
-        }
-
-        .form-group input:focus,
-        .form-group textarea:focus {
-            outline: none;
-            border-color: var(--primary);
-        }
-
-        .form-group textarea {
-            resize: vertical;
-            min-height: 100px;
-        }
-
-        .form-submit {
-            width: 100%;
-            padding: 1rem;
-            font-size: 1.125rem;
-            cursor: pointer;
-            border: none;
-            border-radius: 4px;
-        }
-
-        .form-note {
-            text-align: center;
-            margin-top: 1rem;
-            font-size: 0.875rem;
-            color: var(--text-light);
-        }
-
-        /* CTA Section */
-        .cta-section {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-            color: var(--white);
-            text-align: center;
-            padding: 4rem 1rem;
-        }
-
-        .cta-section h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .cta-section p {
-            font-size: 1.125rem;
-            margin-bottom: 2rem;
-            opacity: 0.9;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        /* Contact Info */
-        .contact {
-            background: var(--bg-light);
-        }
-
-        .contact-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .contact-info {
-            background: var(--white);
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: var(--shadow);
-        }
-
-        .contact-info h3 {
-            color: var(--primary);
-            margin-bottom: 1.5rem;
-            font-size: 1.5rem;
-        }
-
-        .contact-item {
-            margin-bottom: 1rem;
-        }
-
-        .contact-item strong {
-            display: block;
-            color: var(--text-light);
-            font-size: 0.875rem;
-            margin-bottom: 0.25rem;
-        }
-
-        .contact-item a {
-            color: var(--primary);
-            text-decoration: none;
-            font-weight: 600;
-        }
-
-        /* Footer */
-        .footer {
-            background: var(--primary-dark);
-            color: var(--white);
-            text-align: center;
-            padding: 2rem 1rem;
-        }
-
-        .footer p {
-            margin-bottom: 0.5rem;
-        }
-
-        /* Mobile CTA */
-        .mobile-cta {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: var(--accent);
-            padding: 1rem;
-            display: flex;
-            gap: 0.5rem;
-            z-index: 1000;
-            box-shadow: 0 -4px 6px rgba(0,0,0,0.1);
-        }
-
-        .mobile-cta a {
-            flex: 1;
-            text-align: center;
-            padding: 0.75rem;
-            border-radius: 4px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 0.875rem;
-        }
-
-        .mobile-cta .btn-call {
-            background: var(--primary-dark);
-            color: var(--white);
-        }
-
-        .mobile-cta .btn-quote {
-            background: var(--white);
-            color: var(--primary-dark);
-        }
-
-        @media (min-width: 769px) {
-            .mobile-cta {
-                display: none;
-            }
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .nav-desktop {
-                display: none;
-            }
-
-            .hero {
-                padding: 100px 1rem 3rem;
-            }
-
-            .hero h1 {
-                font-size: 1.75rem;
-            }
-
-            .hero-cta {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .hero-cta .btn-white,
-            .hero-cta .btn-outline {
-                width: 100%;
-                text-align: center;
-            }
-
-            section {
-                padding: 2rem 1rem;
-            }
-
-            .section-header h2 {
-                font-size: 1.75rem;
-            }
-
-            .services-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .reviews-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .trust-badge-bar {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .trust-content {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .trust-item strong {
-                font-size: 1.25rem;
-            }
-
-            .cta-section h2 {
-                font-size: 1.75rem;
-            }
-
-            .footer {
-                padding-bottom: 5rem;
-            }
-        }
-
-        /* Honey pot field for spam prevention */
-        .hp-field {
-            position: absolute;
-            left: -9999px;
-            opacity: 0;
-        }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roofing Company in Carlisle, PA | Strickland Brothers Construction LLC &amp; Roofing | Cumberland County</title>
+<meta name="description" content="Strickland Brothers Construction LLC offers expert commercial and residential roofing in Carlisle, PA and Cumberland County — installations, replacements, and repairs. Call (717) 226-4781.">
+<!-- Favicon: pulled live from their current site. If it doesn't appear,
+     view-source their homepage for the real <link rel="icon"> URL.
+     Backup: https://www.google.com/s2/favicons?domain=stricklandroofing.net&sz=64
+     Self-host the icon file if they buy the site. -->
+<link rel="icon" href="https://www.stricklandroofing.net/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="header-top">
-            🏆 GAF Certified Installer | Serving Carlisle & Cumberland County | <a href="tel:7172264781">(717) 226-4781</a>
-        </div>
-        <div class="header-main">
-            <img src="images/logo-small.jpg" alt="Strickland Brothers Construction" class="logo" width="134" height="60">
-            <nav class="nav-desktop">
-                <a href="#services">Services</a>
-                <a href="#why-us">Why Us</a>
-                <a href="#reviews">Reviews</a>
-                <a href="#contact">Contact</a>
-                <a href="tel:7172264781" class="btn-primary">📞 Call Now</a>
-            </nav>
-        </div>
-    </header>
+<div class="topbar">
+  <div class="wrap">
+    <span>GAF Certified Installer &middot; Carlisle, PA &amp; Cumberland County</span>
+    <span><span class="hours">Mon&ndash;Fri 7:00am&ndash;7:00pm &middot; </span><a href="tel:7172264781">(717) 226-4781</a></span>
+  </div>
+</div>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="Strickland Brothers Construction — home">
+      <img data-slot="logo" alt="Strickland Brothers Construction LLC &amp; Roofing"
+           onerror="this.remove();this.parentElement.querySelector('.logo-text').style.display='block'">
+      <span class="logo-text">Strickland Brothers<span>Carlisle &middot; Cumberland Co., PA</span></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <nav class="nav" aria-label="Main">
+    <a href="index.html" aria-current="page">Home</a>
+    <a href="commercial.html">Commercial</a>
+    <a href="residential.html">Residential</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="index.html#reviews">Reviews</a>
+    </nav>
+    <a class="header-phone cta-head" href="tel:7172264781">(717) 226-4781</a>
+    <a class="btn btn-copper cta-head" href="contact.html">Get a Free Quote</a>
+  </div>
+</header>
 
-    <!-- Hero -->
-    <main>
-    <section class="hero">
-        <div class="hero-content">
-            <div class="trust-badge-bar" style="margin-bottom: 2rem; background: transparent; padding: 0;">
-                <div class="gaf-badge">
-                    🏆 GAF Certified Installer
-                </div>
-                <div class="star-rating">
-                    ★★★★★
-                </div>
-                <span style="color: var(--accent); font-weight: 600;">4.8/5 from 47 reviews</span>
-            </div>
-            <h1>Experienced & Reliable Roofers in Carlisle, PA</h1>
-            <p class="hero-subtitle">Central PA's Premier Roofing Company. Commercial & Residential roofing services throughout Carlisle, PA and surrounding areas. <strong>GAF Certified</strong> with lifetime warranties available.</p>
-            <div class="hero-cta">
-                <a href="tel:7172264781" class="btn-white btn-large">📞 Call (717) 226-4781</a>
-                <a href="#quote-form" class="btn-outline btn-large">Get Free Estimate</a>
-            </div>
-            <p style="margin-top: 1.5rem; font-size: 0.875rem; opacity: 0.8;">
-                ✅ Licensed & Insured | ✅ Serving Cumberland County | ✅ Same Day Estimates Available
-            </p>
-        </div>
-    </section>
-
-    <!-- Trust Bar -->
-    <section class="trust-bar">
-        <div class="trust-content">
-            <div class="trust-item">
-                <strong>50+</strong>
-                <span>Years Combined Experience</span>
-            </div>
-            <div class="trust-item">
-                <strong>GAF</strong>
-                <span>Certified Installer</span>
-            </div>
-            <div class="trust-item">
-                <strong>Local</strong>
-                <span>Cumberland County Owned</span>
-            </div>
-            <div class="trust-item">
-                <strong>Lifetime</strong>
-                <span>Warranty Available</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services -->
-    <section id="services">
-        <div class="section-header">
-            <h2>Our Roofing Services</h2>
-            <p>No matter what your roofing need may be, Strickland Brothers Construction can get the job done! From new installations to replacements and repairs, we handle it all.</p>
-        </div>
-        <div class="services-grid">
-            <div class="service-card">
-                <img src="images/commercial-roof.jpg" alt="Commercial Roofing" width="700" height="467">
-                <div class="service-content">
-                    <h3>Commercial Roofing</h3>
-                    <p>Our team has successfully performed all phases of roofing for commercial customers with unparalleled expertise. We specialize in EPDM and TPO roofing solutions using only top-quality products.</p>
-                    <a href="tel:7172264781" class="btn-primary">Get Commercial Quote →</a>
-                </div>
-            </div>
-            <div class="service-card">
-                <img src="images/residential-roof.jpg" alt="Residential Roofing" width="700" height="467">
-                <div class="service-content">
-                    <h3>Residential Roofing</h3>
-                    <p>Industry leaders in shingle replacement and installation. We install the highest quality shingles with the utmost craftsmanship, protecting your home from the elements for years to come.</p>
-                    <a href="tel:7172264781" class="btn-primary">Get Residential Quote →</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Choose Us -->
-    <section id="why-us" class="why-us">
-        <div class="section-header">
-            <h2>Why Choose Strickland Brothers?</h2>
-        </div>
-        <div class="features-grid">
-            <div class="feature">
-                <div class="feature-icon">👷</div>
-                <h3>Decades of Experience</h3>
-                <p>With combined experience spanning decades, our skilled professionals bring a wealth of knowledge to every project.</p>
-            </div>
-            <div class="feature">
-                <div class="feature-icon">🏠</div>
-                <h3>Locally Rooted</h3>
-                <p>As a locally owned business, our ties to Cumberland County run deep. We treat every client like a neighbor.</p>
-            </div>
-            <div class="feature">
-                <div class="feature-icon">🏆</div>
-                <h3>GAF Certified</h3>
-                <p>Your roof will get done right the first time! Access to lifetime limited warranties with the best coverage in North America.</p>
-            </div>
-            <div class="feature">
-                <div class="feature-icon">⭐</div>
-                <h3>Quality Guaranteed</h3>
-                <p>We take pride in delivering top-tier craftsmanship at every stage, using only the finest materials.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Reviews Section -->
-    <section id="reviews" class="reviews-section">
-        <div class="section-header">
-            <h2>What Our Customers Say</h2>
-            <p>Don't just take our word for it. Here's what homeowners and businesses in Carlisle say about working with us.</p>
-        </div>
-        
-        <div class="rating-summary">
-            <div class="rating-number">4.8</div>
-            <div>
-                <div class="star-rating" style="font-size: 1.5rem;">
-                    ★★★★★
-                </div>
-                <div style="color: var(--text-light);">Based on 47 reviews</div>
-            </div>
-        </div>
-
-        <div class="reviews-grid">
-            <div class="review-card">
-                <div class="star-rating">★★★★★</div>
-                <p>"Strickland Brothers replaced our entire roof after storm damage. Professional, on time, and the work was impeccable. The GAF warranty gives us peace of mind. Highly recommend!"</p>
-                <div class="reviewer-name">Sarah M.</div>
-                <div class="reviewer-location">Carlisle, PA</div>
-            </div>
-            <div class="review-card">
-                <div class="star-rating">★★★★★</div>
-                <p>"We hired them for our commercial building. They worked around our business hours and completed the job faster than expected. Very professional crew."</p>
-                <div class="reviewer-name">Mike T.</div>
-                <div class="reviewer-location">Cumberland County, PA</div>
-            </div>
-            <div class="review-card">
-                <div class="star-rating">★★★★★</div>
-                <p>"Called for a leak repair and they came out the same day. Fair pricing and honest assessment. These guys know their stuff. Will definitely use them for our next project."</p>
-                <div class="reviewer-name">Jennifer K.</div>
-                <div class="reviewer-location">Carlisle, PA</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Form Section -->
-    <section id="quote-form" class="contact-form-section">
-        <div class="contact-form-container">
-            <h2>Get Your Free Estimate</h2>
-            <p class="subtitle">Fill out the form below and we'll call you within 2 hours</p>
-            
-            <form action="mailto:mjeffreystrickland@gmail.com" method="post" enctype="text/plain">
-                <div class="hp-field">
-                    <input type="text" name="website" tabindex="-1" autocomplete="off" aria-label="Website (honeypot, please leave blank)">
-                </div>
-                
-                <div class="form-group">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" required placeholder="John Smith">
-                </div>
-                
-                <div class="form-group">
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" id="phone" name="phone" required placeholder="(717) 555-1234">
-                </div>
-                
-                <div class="form-group">
-                    <label for="message">Message <span>(optional)</span></label>
-                    <textarea id="message" name="message" placeholder="Tell us about your roofing needs..."></textarea>
-                </div>
-                
-                <button type="submit" class="btn-primary form-submit">📞 Request My Free Estimate</button>
-            </form>
-            
-            <p class="form-note">✓ No obligation | ✓ Free inspection | ✓ Written estimate</p>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <h2>Ready to Protect Your Property?</h2>
-        <p>Contact us today for a free roofing quote. Serving Carlisle, PA and all of Cumberland County with quality roofing solutions. Same day estimates available.</p>
-        <a href="tel:7172264781" class="btn-white btn-large">📞 Call (717) 226-4781</a>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="contact">
-        <div class="section-header">
-            <h2>Contact Us</h2>
-        </div>
-        <div class="contact-grid">
-            <div class="contact-info">
-                <h3>Get in Touch</h3>
-                <div class="contact-item">
-                    <strong>Phone</strong>
-                    <a href="tel:7172264781">(717) 226-4781</a>
-                </div>
-                <div class="contact-item">
-                    <strong>Email</strong>
-                    <a href="mailto:mjeffreystrickland@gmail.com">mjeffreystrickland@gmail.com</a>
-                </div>
-                <div class="contact-item">
-                    <strong>Business Hours</strong>
-                    <span>Mon - Fri: 7:00am - 7:00pm</span>
-                </div>
-                <div class="contact-item">
-                    <strong>License</strong>
-                    <span>Licensed & Insured Contractor</span>
-                </div>
-            </div>
-            <div class="contact-info">
-                <h3>Service Area</h3>
-                <p>Carlisle, PA and surrounding areas in Cumberland County. Commercial and residential roofing services available throughout Central Pennsylvania.</p>
-                <img src="images/f-wave-shingles.jpg" alt="F-Wave Shingles - Premium Quality" width="300" height="393" style="width: 100%; max-width: 300px; border-radius: 8px; margin-top: 1rem;">
-                <p style="font-size: 0.875rem; color: var(--text-light); margin-top: 0.5rem;">F-Wave Shingles - Premium Quality</p>
-            </div>
-        </div>
-    </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <p>&copy; 2026 Strickland Brothers Construction LLC. All Rights Reserved.</p>
-        <p style="margin-top: 0.5rem; font-size: 0.75rem;">GAF Certified Installer | Licensed & Insured | Cumberland County, PA</p>
-    </footer>
-
-    <!-- Mobile CTA -->
-    <div class="mobile-cta">
-        <a href="tel:7172264781" class="btn-call">📞 Call Now</a>
-        <a href="#quote-form" class="btn-quote">Get Quote</a>
+<section class="hero">
+  <video muted loop playsinline autoplay aria-hidden="true"></video>
+  <div class="scrim"></div>
+  <div class="wrap">
+    <!-- NOTE FOR DANIEL: 4.9 rating verified across their GAF profile (179 reviews),
+         RooferRate (170), and other aggregators. Confirm the live count on their
+         Google Business Profile and update the number + link below. -->
+    <a class="rating-badge" href="https://www.google.com/search?q=Strickland+Brothers+Construction+LLC+and+Roofing+Carlisle+PA+reviews" target="_blank" rel="noopener">
+      <span class="stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      <span>4.9 rating &middot; 170+ Google reviews</span>
+    </a>
+    <h1>Roof Replacement &amp; Repair in Carlisle, PA</h1>
+    <p class="sub">Commercial &amp; residential roofing across Cumberland County. Experienced &amp; reliable roofers &mdash; from new installations to storm damage repairs, we do it all.</p>
+    <div class="cta-row">
+      <a class="btn btn-copper" href="tel:7172264781">Call Now &mdash; (717) 226-4781</a>
+      <a class="btn btn-ghost" href="contact.html">Request a Free Quote</a>
     </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap split">
+    <div>
+      <p class="ridge"><svg width="26" height="12" viewBox="0 0 26 12" aria-hidden="true"><path d="M1 11 13 1l12 10" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Central PA&rsquo;s Premier Roofing Company</p>
+      <h2>A Roofer You Can Trust</h2>
+      <p class="lead" style="margin-top:16px">When you need a roofer you can trust, turn to Strickland Brothers Construction L.L.C. We provide commercial and residential roofing services throughout Carlisle, PA, and the surrounding areas. From new installations to replacements and repairs, we do it all.</p>
+      <p style="margin-top:16px">Contact Strickland Brothers Construction L.L.C. at <a href="tel:7172264781"><strong>(717) 226-4781</strong></a> to request a roofing quote.</p>
+    </div>
+    <div class="photo">
+      <img data-slot="home-intro" alt="Roofers at work on a residential roof" data-label="Roofing crew photo">
+    </div>
+  </div>
+</section>
+
+<section class="section dark pitch-top">
+  <div class="wrap pitch-pad" style="padding-bottom:16px">
+    <p class="ridge"><svg width="26" height="12" viewBox="0 0 26 12" aria-hidden="true"><path d="M1 11 13 1l12 10" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Why Choose Strickland Brothers?</p>
+    <h2>Built on Experience. Rooted in Cumberland County.</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Experienced</h3>
+        <p>With a combined experience that spans decades, our team of skilled professionals brings a wealth of knowledge to every project we undertake. From construction planning and execution to the finest finishing touches, we take pride in delivering top-tier craftsmanship at every stage.</p>
+      </div>
+      <div class="card">
+        <h3>Locally Rooted</h3>
+        <p>As a locally owned and operated business, our ties to Cumberland County run deep. We treat every client like a neighbor, working tirelessly to meet their unique needs and exceed expectations. Your satisfaction is not just our goal; it&rsquo;s a testament to our commitment to the community we serve.</p>
+      </div>
+    </div>
+  </div>
+  <div class="greenland" style="margin-top:56px">
+    <div class="wrap">
+      <div>
+        <p class="ridge"><svg width="26" height="12" viewBox="0 0 26 12" aria-hidden="true"><path d="M1 11 13 1l12 10" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Proven Beyond Pennsylvania</p>
+        <p class="stat">Local Contractor Hired for a Government Job on Greenland</p>
+        <p>When the U.S. government needed roofing done right in one of the harshest climates on Earth, they called a contractor from Carlisle. Read the story for yourself.</p>
+      </div>
+      <div>
+        <a class="btn btn-copper" href="https://irp.cdn-website.com/66a233cc/files/uploaded/Greenland.pdf" target="_blank" rel="noopener">Read the Article (PDF)</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section stone">
+  <div class="wrap">
+    <p class="ridge"><svg width="26" height="12" viewBox="0 0 26 12" aria-hidden="true"><path d="M1 11 13 1l12 10" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Our Roofing Services</p>
+    <h2>Every Roof. One Call.</h2>
+    <p class="lead" style="margin-top:16px">No matter what your roofing need may be, Strickland Brothers Construction, LLC &amp; Roofing can get the job done! Need a commercial roof replaced? Building a new home? Expanding and need to cover your growing business or family? We are the premier roofing company in Central PA and can handle all of your roofing needs.</p>
+    <div class="svc-cards">
+      <article class="svc">
+        <img data-slot="home-commercial" alt="Commercial flat roof installation by Strickland Brothers" data-label="Their commercial roof photo">
+        <div class="svc-body">
+          <h3>Commercial Roofing</h3>
+          <p>Our team of installers and inside support personnel have successfully performed all phases of roofing for commercial customers with unparalleled expertise, using only top-quality products. We specialize in EPDM and TPO roofing solutions &mdash; whether you are remodeling your store or restaurant, building a new warehouse, or anything in between.</p>
+          <a class="btn btn-copper" href="commercial.html">Explore Commercial Roofing</a>
+        </div>
+      </article>
+      <article class="svc">
+        <img data-slot="home-residential" alt="New shingle roof installed on a Carlisle home" data-label="Their residential roof photo">
+        <div class="svc-body">
+          <h3>Residential Roofing</h3>
+          <p>Strickland Brothers Construction L.L.C. is an industry leader in shingle replacement and installation. If damaged or old shingles are ignored, it will cause more damage to your roof. We install the highest quality shingles in the industry with the utmost craftsmanship.</p>
+          <a class="btn btn-copper" href="residential.html">Explore Residential Roofing</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="reviews">
+  <div class="wrap">
+    <p class="ridge"><svg width="26" height="12" viewBox="0 0 26 12" aria-hidden="true"><path d="M1 11 13 1l12 10" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>What Your Neighbors Say</p>
+    <h2>Rated 4.9 Stars by Cumberland County</h2>
+    <div class="review-summary">
+      <span class="big-score">4.9</span>
+      <div class="meta">
+        <div class="stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div>170+ Google reviews</div>
+        <a href="https://www.google.com/search?q=Strickland+Brothers+Construction+LLC+and+Roofing+Carlisle+PA+reviews" target="_blank" rel="noopener">Read our reviews on Google &rarr;</a>
+      </div>
+    </div>
+    <!-- NOTE FOR DANIEL: paste 3 real Google reviews below (verbatim text,
+         first name + town). Do not publish placeholder cards. -->
+    <div class="review-cards">
+      <div class="review-ph">Paste a real Google review here &mdash; text, first name &amp; town</div>
+      <div class="review-ph">Paste a real Google review here &mdash; text, first name &amp; town</div>
+      <div class="review-ph">Paste a real Google review here &mdash; text, first name &amp; town</div>
+    </div>
+  </div>
+</section>
+<section class="cta-band pitch-top">
+  <div class="wrap pitch-pad" style="padding-bottom:64px">
+    <h2>Ready for a Roof Done Right the First Time?</h2>
+    <p>Request a quote today and one of our roofing professionals will get back to you as soon as possible.</p>
+    <div class="cta-row" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap">
+      <a class="btn btn-dark" href="tel:7172264781">Call Now &mdash; (717) 226-4781</a>
+      <a class="btn btn-ghost" href="contact.html">Request a Free Quote</a>
+    </div>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <h3>Strickland Brothers Construction LLC</h3>
+      <p>Commercial &amp; residential roofing serving Carlisle, PA and all of Cumberland County.</p>
+      <p style="margin-top:12px"><a href="tel:7172264781">(717) 226-4781</a><br>
+      <a href="mailto:mjeffreystrickland@gmail.com">mjeffreystrickland@gmail.com</a><br>
+      13 Goodyear Rd, Carlisle, PA 17015</p>
+    </div>
+    <div>
+      <h3>Business Hours</h3>
+      <p>Mon &ndash; Fri: 7:00am &ndash; 7:00pm</p>
+      <h3 style="margin-top:22px">Explore</h3>
+      <p><a href="commercial.html">Commercial Roofing</a><br>
+      <a href="residential.html">Residential Roofing</a><br>
+      <a href="gallery.html">Our Work</a><br>
+      <a href="contact.html">Request a Quote</a></p>
+    </div>
+    <div>
+      <h3>Licensed &amp; Certified</h3>
+      <!-- NOTE FOR DANIEL: license number sourced from their GAF profile
+           (gaf.com listing shows PA007404, GAF ID 1100820). Verify with
+           Jeff before the site goes live. -->
+      <p>PA HIC #PA007404<br>GAF Certified Installer</p>
+    </div>
+    <div class="gaf">
+      <h3>GAF Certified Installer</h3>
+      <p>Using a GAF factory-certified contractor means your roof will get done right the first time! Strickland Brothers meets a professional standard of excellence and is up to date with the latest technologies. In addition, you will have access to lifetime limited warranties with the best coverage in North America.</p>
+      <img data-slot="gaf-shingles" alt="GAF architectural shingles installed by Strickland Brothers" data-label="Their shingle photo">
+    </div>
+  </div>
+  <div class="footer-legal">
+    <!-- NOTE FOR DANIEL: their current privacy policy link points to their web
+         vendor's site (darwebconsulting.com/privacy-policy) — a profit leak worth
+         mentioning. Replace with their own policy page when they buy. -->
+    <a href="https://www.darwebconsulting.com/privacy-policy" rel="nofollow">Privacy Policy</a> &middot;
+    &copy; <span class="year"></span> All Rights Reserved &middot; Strickland Brothers Construction LLC
+  </div>
+</footer>
+<a class="call-fab" href="tel:7172264781">Call Now &mdash; (717) 226-4781</a>
+<script src="site.js"></script>
 </body>
 </html>
