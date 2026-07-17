@@ -29,9 +29,19 @@ const PHOTOS = {
   /* --- GAF section / footer --- */
   "gaf-shingles":    "https://lirp.cdn-website.com/66a233cc/dms3rep/multi/opt/F-Wave+shingles-4--591h.jpg",
 
-  /* --- gallery: RUN THE EXTRACTION SCRIPT AND PASTE URLS HERE --- */
-  "g1":"", "g2":"", "g3":"", "g4":"", "g5":"", "g6":"",
-  "g7":"", "g8":"", "g9":"", "g10":"", "g11":"", "g12":""
+  /* --- gallery: extracted from their CDN via extract_site_assets.py --- */
+  "g1":"https://lirp.cdn-website.com/66a233cc/dms3rep/multi/opt/roofers-2880w.jpg",
+  "g2":"https://lirp.cdn-website.com/66a233cc/dms3rep/multi/opt/roof+inspector-2880w.jpg",
+  "g3":"https://lirp.cdn-website.com/66a233cc/dms3rep/multi/opt/commercial-roof-2880w.jpg",
+  "g4":"https://lirp.cdn-website.com/66a233cc/dms3rep/multi/opt/commroofrep-e938ef17-2880w.jpg",
+  "g5":"https://lirp.cdn-website.com/66a233cc/dms3rep/multi/opt/damage-28eb7447-f26507e8-7942879b-3b6fa6b4-2880w.jpg",
+  "g6":"https://lirp.cdn-website.com/66a233cc/dms3rep/multi/opt/house1-0cc35d79-2880w.jpg",
+  "g7":"https://lirp.cdn-website.com/66a233cc/dms3rep/multi/opt/20190919_115158-2880w.jpg",
+  "g8":"https://lirp.cdn-website.com/66a233cc/dms3rep/multi/opt/07927-2880w.JPG",
+  "g9":"https://lirp.cdn-website.com/66a233cc/dms3rep/multi/opt/07924-d83053a6-2880w.JPG",
+  "g10":"https://lirp.cdn-website.com/66a233cc/dms3rep/multi/opt/GAF-designer-shingles-c3b7-2880w.jpg",
+  "g11":"https://lirp.cdn-website.com/66a233cc/dms3rep/multi/opt/Screenshot_20231116_122948_Gallery-1920w.jpg",
+  "g12":"https://lirp.cdn-website.com/66a233cc/dms3rep/multi/opt/Screenshot_20231116_122923_Gallery-1920w.jpg"
 };
 
 const HERO_VIDEO = "https://vid.cdn-website.com/md/pexels/videos/culdesac-drone-footage-homes-houses-4770380-v.mp4";
